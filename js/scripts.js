@@ -23,29 +23,25 @@ $(document).ready(function(){
     resultArray.push(responseResult);
     });
 
+    console.log(resultArray);
+
     var result = resultArray.reduce(function(a, b){
       return a + b;
     });
+    console.log(result);
 
-    if (result <= 4) {
+    if (result < 4) {
       $("#mild").show();
-    } else if (result = 5){
-      $("moderate").show();
-    } else {
-      $("#extreme").show();
-    }
+    } else if (result == 5) {
+     $("#moderate").show();
+   } else if (result >= 6) {
+     $("#extreme").show();
+   }
   });
 
 
 
 
-    $('#stressTest').hide();
+    // $('#stressTest').hide();
  });
-});
-
-
-
-//  $("input:checkbox[name=warningSigns]:checked").each(function(){
-//    var warning = $(this).val();
-//    $('#warning-responses').append(warning + "<br>");
-//  });
+//});
