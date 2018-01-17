@@ -17,35 +17,35 @@
       <form id="stressTest">
         <div class="form-group">
         <p>Here are some signs and symptoms of being STRESSED OUT. Check all that apply: </p>
-        <input type="checkbox" name="warningSigns" value="insomnia">Insomnia<br>
-        <input type="checkbox" name="warningSigns" value="anger">Outbursts of Rage<br>
-        <input type="checkbox" name="warningSigns" value="fatigue">Fatigue<br>
-        <input type="checkbox" name="warningSigns" value="depression">Depression.<br>
+        <input type="checkbox" name="warningSigns" value="1">Insomnia<br>
+        <input type="checkbox" name="warningSigns" value="1">Outbursts of Rage<br>
+        <input type="checkbox" name="warningSigns" value="1">Fatigue<br>
+        <input type="checkbox" name="warningSigns" value="1">Depression.<br>
         </div>
         <div class="form-group">
         <p>In the past year, have you experienced any of the following symptoms?</p>
-        <input type="checkbox" name="symptoms" value="hypertension">Hypertension<br>
-        <input type="checkbox" name="symptoms" value="anxiety">Anxiety<br>
-        <input type="checkbox" name="symptoms" value="balding">Losing hair<br>
+        <input type="checkbox" name="symptoms" value="1">Hypertension<br>
+        <input type="checkbox" name="symptoms" value="1">Anxiety<br>
+        <input type="checkbox" name="symptoms" value="1">Losing hair<br>
         </div>
         <div class="form-group">
         <p>What do you already do to cope with this?</p>
-        <input type="checkbox" name="recommendations" value="meditate">Meditate<br>
-        <input type="checkbox" name="recommendations" value="exercise">Exercise<br>
-        <input type="checkbox" name="recommendations" value="dogHug">Hug a dog<br>
+        <input type="checkbox" name="rec" value="-1">Meditate<br>
+        <input type="checkbox" name="rec" value="-1">Exercise<br>
+        <input type="checkbox" name="rec" value="-1">Hug a dog<br>
         </div>
        <button type="submit">Submit Survey</button>
      </form>
-     <span id="warning-responses">
-       <p><b>These are your warning signs:</b></p>
+     <span id="mild">
+       <p><b>Your stress level is mild.</b></p>
      </span>
      <br>
-     <span id="symptom-responses">
-       <p><b>Your symptoms are:</b></p>
+     <span id="moderate">
+       <p><b>Your stress level is moderate.</b></p>
      </span>
      <br>
-     <span id="rec-responses">
-       <p><b>You use these methods to cope with stress:</b></p>
+     <span id="extreme">
+       <p><b>Your stress level is extreme.</b></p>
      </span>
     </div>
   </body>

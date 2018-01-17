@@ -1,11 +1,11 @@
-#warning-responses {
+#mild {
   display: none;
 }
 
-#symptom-responses {
+#moderate {
   display: none;
 }
 
-#rec-responses {
+#extreme {
   display: none;
 }
